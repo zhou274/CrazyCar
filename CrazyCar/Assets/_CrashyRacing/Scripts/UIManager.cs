@@ -197,11 +197,12 @@ public class UIManager : MonoBehaviour
 
     public void RestartGame()
     {
-        GameManager.Instance.RestartGame(0.2f);
+        //GameManager.Instance.RestartGame(0.2f);
+        SceneManager.LoadScene("Main");
     }
     public void ContinueGame()
     {
-        ShowVideoAd("192if3b93qo6991ed0",
+        ShowVideoAd("57glm505e08d39hdh7",
             (bol) => {
                 if (bol)
                 {
@@ -286,7 +287,7 @@ public class UIManager : MonoBehaviour
         velocityText.text = ((int)maxSpeed).ToString();
         velocityNote.SetActive(true);
 
-        ShowInterstitialAd("1lcaf5895d5l1293dc",
+        ShowInterstitialAd("1le4jdi9x7q9c8kj65",
             () => {
                 Debug.LogError("--插屏广告完成--");
 
@@ -550,7 +551,7 @@ public class UIManager : MonoBehaviour
 
     public void AddCoins()
     {
-        ShowVideoAd("192if3b93qo6991ed0",
+        ShowVideoAd("57glm505e08d39hdh7",
             (bol) => {
                 if (bol)
                 {
