@@ -202,7 +202,7 @@ public class UIManager : MonoBehaviour
     }
     public void ContinueGame()
     {
-        ShowVideoAd("57glm505e08d39hdh7",
+        ShowVideoAd("6ujrlnhqs005iwq0u0",
             (bol) => {
                 if (bol)
                 {
@@ -287,7 +287,7 @@ public class UIManager : MonoBehaviour
         velocityText.text = ((int)maxSpeed).ToString();
         velocityNote.SetActive(true);
 
-        ShowInterstitialAd("1le4jdi9x7q9c8kj65",
+        ShowInterstitialAd("155936lva8j44w700l",
             () => {
                 Debug.LogError("--插屏广告完成--");
 
@@ -551,7 +551,7 @@ public class UIManager : MonoBehaviour
 
     public void AddCoins()
     {
-        ShowVideoAd("57glm505e08d39hdh7",
+        ShowVideoAd("6ujrlnhqs005iwq0u0",
             (bol) => {
                 if (bol)
                 {
